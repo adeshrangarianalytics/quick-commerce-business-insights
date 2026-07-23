@@ -1,145 +1,178 @@
-Quick Commerce Analytics & Business Insights Project
-📌 Overview
+# 📊 Quick Commerce Analytics & Business Insights
 
-This project focuses on analyzing operational performance, delivery efficiency, customer ratings, and revenue trends in Quick Commerce (Q-Commerce) platforms such as Blinkit, Zepto, Swiggy Instamart, and BigBasket Now.
+## 📌 Overview
 
-The project was built using Python, SQL, and Power BI to perform data cleaning, exploratory data analysis (EDA), business analysis, dashboard creation, and reporting. The main objective was to generate actionable business insights from raw order-level data.
+This project analyzes operational performance, customer behavior, delivery efficiency, and revenue trends in Quick Commerce (Q-Commerce) platforms such as **Blinkit, Zepto, Swiggy Instamart, and BigBasket Now**.
 
-📂 Dataset
+Using **Python, SQL, and Power BI**, the project transforms raw order-level data into actionable business insights through data cleaning, exploratory data analysis (EDA), SQL analysis, KPI tracking, and interactive dashboards.
 
-The dataset used in this project is a synthetic Quick Commerce dataset containing order-level information such as:
+---
 
-Platform Name
-City
-Product Category
-Delivery Time
-Customer Ratings
-Discounts
-Order Value
-Revenue-related Features
+## 🎯 Objectives
 
-The dataset was used for:
+- Clean and preprocess raw order data.
+- Perform exploratory data analysis (EDA).
+- Analyze business performance using SQL.
+- Build an interactive Power BI dashboard.
+- Generate insights to support data-driven business decisions.
 
-Data Cleaning
-EDA
-SQL Analysis
-KPI Generation
-Dashboard Building
-🛠 Tools & Technologies Used
-Programming & Analysis
-Python
-Pandas
-NumPy
-Visualization
-Matplotlib
-Seaborn
-Plotly
-Power BI
-Database
-PostgreSQL / MySQL / SQL Server
-Reporting & Presentation
-Power BI Dashboard
-Project Report
-Gamma PPT Presentation
-📊 Project Workflow
-1️⃣ Data Loading
-Imported the dataset into Python using Pandas
-Explored dataset structure using:
-head()
-info()
-shape()
-describe()
-2️⃣ Data Cleaning
-Handled missing values
-Removed duplicate records
-Performed data type conversions
-Detected and treated outliers
-Improved dataset quality for analysis
-3️⃣ Exploratory Data Analysis (EDA)
+---
 
-Performed detailed analysis to identify:
+## 📂 Dataset
 
-Revenue trends
-Delivery performance
-Customer rating patterns
-Discount impact
-City-wise performance
-Category-wise analysis
+The project uses a synthetic Quick Commerce dataset containing information such as:
 
-Created multiple visualizations using Matplotlib, Seaborn, and Plotly.
+- Platform Name
+- City
+- Product Category
+- Order Value
+- Delivery Time
+- Customer Ratings
+- Discounts
+- Revenue Metrics
 
-4️⃣ SQL Analysis
+---
 
-Imported cleaned data into PostgreSQL/MySQL/SQL Server and executed SQL queries to:
+## 🛠️ Tech Stack
 
-Calculate KPIs
-Analyze revenue trends
-Compare platform performance
-Identify top-performing cities and categories
-Generate business insights
-5️⃣ Dashboard Development
+| Category | Tools |
+|----------|-------|
+| Programming | Python |
+| Libraries | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn, Plotly |
+| Database | PostgreSQL |
+| Dashboard | Power BI |
+| SQL Concepts | CTEs, CASE Statements, Window Functions, Subqueries |
 
-Built an interactive Power BI dashboard including:
+---
 
-KPI Cards
-Revenue Analysis
-Delivery Performance
-Customer Ratings
-City-wise Insights
-Platform Comparison
-Interactive Filters & Visuals
-6️⃣ Reporting & Presentation
-Created a project report summarizing insights and findings
-Designed a professional presentation using Gamma PPT
-📈 Key Business Insights
-Faster delivery time improved customer ratings
-Some discount strategies were not improving revenue effectively
-Certain cities showed high business potential
-Platform-wise operational efficiency varied significantly
-Some product categories generated higher Average Order Value
-📊 Dashboard Features
+## 🔄 Project Workflow
 
-The Power BI dashboard includes:
+### 1️⃣ Data Cleaning
 
-Total Revenue KPI
-Average Delivery Time
-Customer Rating Analysis
-Platform Comparison
-Category-wise Performance
-City-wise Revenue Trends
-Interactive Visualizations
-🚀 How to Run the Project
-Python Analysis
-Install required libraries:
-pip install pandas numpy matplotlib seaborn plotly scikit-learn
-Open the Jupyter Notebook:
-jupyter notebook
-Run the notebook step-by-step.
-SQL Analysis
-Import dataset into PostgreSQL/MySQL/SQL Server
-Run SQL queries provided in the project files
-Analyze KPIs and business insights
-Power BI Dashboard
-Open the .pbix file in Power BI Desktop
-Refresh the dataset connection if required
-Explore interactive dashboard visuals
-📁 Project Files
-Dataset File
-Python Notebook
-SQL Queries
-Power BI Dashboard
-Project Report
-Gamma PPT Presentation
-🎯 Skills Demonstrated
-Data Cleaning
-Exploratory Data Analysis
-SQL Querying
-Data Visualization
-Dashboard Development
-KPI Analysis
-Business Analytics
-Problem Solving
-Data-driven Decision Making
-📌 Conclusion
+- Removed duplicate records
+- Handled missing values
+- Converted data types
+- Detected and treated outliers
+- Improved overall data quality
 
-This project demonstrates how data analytics can help Quick Commerce companies improve operational efficiency, customer satisfaction, and business decision-making using Python, SQL, and Power BI.
+### 2️⃣ Exploratory Data Analysis (EDA)
+
+Analyzed:
+
+- Revenue trends
+- Delivery performance
+- Customer ratings
+- Discount effectiveness
+- Platform performance
+- City-wise sales
+- Category-wise performance
+
+Created insightful visualizations using **Matplotlib**, **Seaborn**, and **Plotly**.
+
+### 3️⃣ SQL Analysis
+
+Performed SQL analysis using PostgreSQL to:
+
+- Calculate KPIs
+- Analyze revenue trends
+- Compare platform performance
+- Identify top-performing cities
+- Evaluate product category performance
+- Generate business insights
+
+### 4️⃣ Dashboard Development
+
+Built an interactive **Power BI Dashboard** featuring:
+
+- Revenue KPIs
+- Average Delivery Time
+- Customer Rating Analysis
+- Platform Comparison
+- Category-wise Performance
+- City-wise Revenue Analysis
+- Interactive Filters and Slicers
+
+---
+
+## 📈 Key Business Insights
+
+- Faster delivery times were associated with higher customer ratings.
+- Some discount strategies reduced profitability without significantly increasing revenue.
+- Certain cities demonstrated strong business expansion opportunities.
+- Operational efficiency varied across Quick Commerce platforms.
+- High-performing product categories generated greater Average Order Value (AOV).
+
+---
+
+## 📊 Dashboard Highlights
+
+The dashboard provides:
+
+- 📌 Total Revenue
+- 📌 Average Order Value
+- 📌 Delivery Time Analysis
+- 📌 Customer Rating Trends
+- 📌 Platform Performance Comparison
+- 📌 Category-wise Sales Analysis
+- 📌 City-wise Revenue Insights
+- 📌 Interactive KPIs and Filters
+
+---
+
+## 🚀 Project Structure
+
+```
+📁 Quick-Commerce-Analytics
+│
+├── 📂 Dataset
+├── 📂 Python Notebook
+├── 📂 SQL Queries
+├── 📂 Power BI Dashboard (.pbix)
+├── 📂 Dashboard Screenshots
+├── 📄 Project Report
+└── 📄 README.md
+```
+
+---
+
+## 💡 Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- SQL Querying
+- PostgreSQL
+- Business Analytics
+- KPI Analysis
+- Data Visualization
+- Dashboard Development
+- Power BI
+- Problem Solving
+- Data-Driven Decision Making
+
+---
+
+## 📌 Business Value
+
+This project demonstrates how analytics can help Quick Commerce companies:
+
+- Improve operational efficiency
+- Enhance customer satisfaction
+- Optimize pricing and discount strategies
+- Identify high-growth markets
+- Support strategic business decisions through interactive dashboards
+
+---
+
+## 📷 Dashboard Preview
+
+> *(Add screenshots of your Power BI dashboard here.)*
+
+---
+
+## 👤 Author
+
+**Adesh Rangari**
+
+- 💼 LinkedIn: *(Add your LinkedIn URL)*
+- 💻 GitHub: https://github.com/adeshrangarianalytics
